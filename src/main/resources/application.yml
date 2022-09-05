@@ -5,13 +5,13 @@ spring:
     #url: jdbc:mysql://localhost:3306/promist?useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
     #username: root
     #password: root
-    url: jdbc:mysql://lbue3ov007aqsxpn:c5b4m7io6t4atcmr@j5zntocs2dn6c3fj.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/zo9h7u1vfkv8cqen
-    username: lbue3ov007aqsxpn
-    password: c5b4m7io6t4atcmr
-    #initialization-mode: always
+    url: jdbc:mysql://xm90udt8kob38ijt:bbqdl9aze68d9wss@j5zntocs2dn6c3fj.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/yfydbspscbhamgie
+    username: xm90udt8kob38ijt
+    password: bbqdl9aze68d9wss
+    initialization-mode: always
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
       show_sql: true
     properties:
       hibernate:
