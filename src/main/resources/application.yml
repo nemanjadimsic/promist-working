@@ -8,10 +8,10 @@ spring:
     url: jdbc:mysql://xm90udt8kob38ijt:bbqdl9aze68d9wss@j5zntocs2dn6c3fj.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/yfydbspscbhamgie
     username: xm90udt8kob38ijt
     password: bbqdl9aze68d9wss
-    initialization-mode: always
+    #initialization-mode: always
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
       show_sql: true
     properties:
       hibernate:
